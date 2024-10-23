@@ -1,5 +1,17 @@
 # Spam-Non-Spam-Email-Text-Classification-SVC-Random-Forest-KNN-K-Clustering
 
+## Table of Contents
+1. [Overview](#overview)
+2. [Dataset](#dataset)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Methods Implemented](#methods-implemented)
+7. [Results](#results)
+8. [Conclusion](#conclusion)
+9. [License](#license)
+10. [Acknowledgments](#acknowledgments)
+
 ## Overview
 This repository contains a Jupyter Notebook that implements a spam email classification system using various traditional machine learning algorithms, including Logistic Regression, K-Nearest Neighbors (KNN), K-Means Clustering, Decision Tree Classifier, Random Forest Classifier, and Support Vector Machines (SVM). The project utilizes a publicly available dataset to classify emails into spam and non-spam categories. The notebook demonstrates data preprocessing, feature extraction, model training, and performance evaluation using metrics like precision, accuracy, recall, and F1 score.
 
@@ -9,7 +21,6 @@ The dataset used in this project is sourced from Kaggle. It can be downloaded us
 ```bash
 !kaggle datasets download -d ashfakyeafi/spam-email-classification
 ```
-
 ### Link to Dataset
 - [Spam Email Classification Dataset](https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification)
 

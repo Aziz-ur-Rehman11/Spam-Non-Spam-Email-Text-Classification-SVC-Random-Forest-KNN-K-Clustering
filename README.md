@@ -10,7 +10,6 @@
 7. [Results](#results)
 8. [Conclusion](#conclusion)
 9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
 
 ## Overview
 This repository contains a Jupyter Notebook that implements a spam email classification system using various traditional machine learning algorithms, including Logistic Regression, K-Nearest Neighbors (KNN), K-Means Clustering, Decision Tree Classifier, Random Forest Classifier, and Support Vector Machines (SVM). The project utilizes a publicly available dataset to classify emails into spam and non-spam categories. The notebook demonstrates data preprocessing, feature extraction, model training, and performance evaluation using metrics like precision, accuracy, recall, and F1 score.
@@ -48,19 +47,15 @@ from sklearn.metrics import precision_score, recall_score, accuracy_score, f1_sc
 ## Usage
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/Spam-Email-Classification.git
-    cd Spam-Email-Classification
+    git clone https://github.com/Aziz-ur-Rehman11/Spam-Non-Spam-Email-Text-Classification-SVC-Random-Forest-KNN-K-Clustering.git
     ```
 
-2. Open the Jupyter Notebook:
-    ```bash
-    jupyter notebook Spam_Email_Classification_Traditional_Techniques.ipynb
-    ```
+2. Open the Jupyter Notebook
 
 3. Follow the instructions in the notebook to preprocess the data, train various classifiers, and evaluate their performance.
 
 ## Methods Implemented
-The following traditional machine learning algorithms are implemented in this notebook:
+The following traditional machine-learning algorithms are implemented in this notebook:
 
 1. Logistic Regression
 2. K-Nearest Neighbors Classifier (KNN)
@@ -83,11 +78,8 @@ The performance of each algorithm is compared based on precision, accuracy, reca
 Visualizations of confusion matrices and a bar graph comparing the metrics are included to help interpret the results.
 
 ## Conclusion
-This project demonstrates the effectiveness of various traditional machine learning algorithms for spam email classification. The results highlight the best-performing algorithm for this task.
+This project demonstrates the effectiveness of various traditional machine-learning algorithms for spam email classification. The results highlight the best-performing algorithm for this task.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-- [Kaggle](https://www.kaggle.com) for providing the dataset.
-- Scikit-learn documentation for guidance on implementing various machine learning algorithms.
